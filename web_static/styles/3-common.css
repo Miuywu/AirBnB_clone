@@ -1,7 +1,14 @@
-body{
+body {
     margin: 0;
     padding: 0;
     color: #484848;
     font-size: 14px;
-    font-family: Circular,"Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: Circular, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+
+div.container {
+    height: 100vh;
 }
